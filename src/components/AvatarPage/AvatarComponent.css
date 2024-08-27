@@ -1,0 +1,134 @@
+.AvatarComponent{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 30px;
+}
+
+.AvatarComponent .steps{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.AvatarComponent .steps span{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.AvatarComponent .display{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.AvatarComponent .display .cropView{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.AvatarComponent .display .avatarBtns{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.AvatarComponent .display .saveBtn{
+    background-color: #083d83;
+    cursor: pointer;
+    height: 40px;
+    width: auto;
+    padding: 10px;
+    color: #ffff;
+    border-radius: 4px;
+}
+
+@media (max-width: 500px){
+    .AvatarComponent{
+        width: 90vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .AvatarComponent .steps{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .AvatarComponent .steps span{
+        font-size: 17px;
+        font-weight: 700;
+        height: auto;
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .AvatarComponent .display{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .AvatarComponent .display .cropView{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .AvatarComponent .display .avatarBtns{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    .AvatarComponent .display .saveBtn{
+        background-color: #083d83;
+        cursor: pointer;
+        height: 40px;
+        width: auto;
+        padding: 10px;
+        color: #ffff;
+        border-radius: 4px;
+    }   
+}

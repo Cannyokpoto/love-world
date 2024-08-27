@@ -1,0 +1,53 @@
+.avatar-frame{
+    /* margin-top: 100px; */
+    height: 400px;
+    width: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.avatar-frame .template{
+    height: 400px;
+    width: 520px;
+}
+
+.avatar-frame .croppedImage{
+    height: 180px;
+    width: 173px;
+    position: absolute;
+    right: 30px;
+    top: 77px;
+    border-radius: 50%;
+}
+
+@media (max-width: 500px){
+    .avatar-frame{
+        /* margin-top: 100px; */
+        height: 350px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
+    .avatar-frame .template{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .avatar-frame .croppedImage{
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        right: 26px;
+        top: 70px;
+        border-radius: 50%;
+    }
+}

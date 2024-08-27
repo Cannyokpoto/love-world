@@ -1,0 +1,10 @@
+.dropzone{
+    border: solid 1px #083d83;
+    background: transparent;
+    cursor: pointer;
+    height: 40px;
+    width: auto;
+    padding: 10px;
+    color: #083d83;
+    border-radius: 4px;
+}
