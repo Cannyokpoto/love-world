@@ -27,7 +27,7 @@
 @media (max-width: 500px){
     .avatar-frame{
         /* margin-top: 100px; */
-        height: 350px;
+        height: 270px;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -43,11 +43,11 @@
     }
     
     .avatar-frame .croppedImage{
-        height: 150px;
-        width: 150px;
+        height: 115px;
+        width: 115px;
         position: absolute;
-        right: 26px;
-        top: 70px;
+        right: 22px;
+        top: 55px;
         border-radius: 50%;
     }
 }
