@@ -46,9 +46,9 @@
         height: 113px;
         width: 113px;
         position: absolute;
-        right: 20px;
+        right: 17px;
         top: 48px;
         border-radius: 50%;
-        border: dashed yellow;
+        border: dashed red;
     }
 }
