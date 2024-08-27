@@ -27,7 +27,7 @@
 @media (max-width: 500px){
     .avatar-frame{
         /* margin-top: 100px; */
-        height: 260px;
+        height: 250px;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -49,6 +49,6 @@
         right: 23px;
         top: 200px;
         border-radius: 50%;
-        border: dashed red;
+        border: dashed green;
     }
 }
