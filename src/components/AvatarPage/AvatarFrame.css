@@ -49,5 +49,6 @@
         right: 23px;
         top: 52px;
         border-radius: 50%;
+        border: dashed red;
     }
 }
